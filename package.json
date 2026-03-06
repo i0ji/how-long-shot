@@ -8,6 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "format": "prettier . --write",
+    "autofix": "eslint --fix",
     "prepare": "husky"
   },
   "husky": {
@@ -50,6 +52,8 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "globals": "^16.5.0",
     "husky": "^9.1.7",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "sass": "^1.97.3",
     "tailwindcss": "^4.2.1",
     "typescript": "~5.9.3",
