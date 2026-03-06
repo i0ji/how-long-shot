@@ -5,4 +5,26 @@ Tracks the time interval for measuring the service lifespan of the purchased pro
 <details>
 <summary>v: 0.0.*</summary>
 - 03.03.26 - first commit, project first build
+- 06.03.26 - contintue with env set up; lint, commitlint, tailwind etc;
 </details>
+
+stack:
+vite
+react
+ts
+scss
+eslint
+tailiwnd
+react-router
+clsx
+commits:
+husky
+-commitizen
+-cz-conventional-changelog
+-cz-customizable
+eslint:
+eslint-plugin-import
+eslint-plugin-react-hooks
+eslint-plugin-react-refresh
+eslint-plugin-simple-import-sort
+typescript-eslint
