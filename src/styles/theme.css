@@ -1,0 +1,63 @@
+@layer base {
+  :root {
+    --bg-primary: #f8faf8;
+    --bg-secondary: #ffffff;
+    --fg-primary: #1a2f2a;
+    --fg-secondary: #58733d;
+    --accent-1: #58733d;
+    --accent-2: #41592f;
+    --accent-3: #d9aa8f;
+    --border: #e5e7eb;
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+  }
+
+  [data-theme="dark"] {
+    --bg-primary: #010221;
+    --bg-secondary: #020d2a;
+    --fg-primary: #0a7373;
+    --fg-secondary: #b7bf99;
+    --accent-1: #b7bf99;
+    --accent-2: #edaa25;
+    --accent-3: #c43302;
+    --border: #1e3a8a;
+    --shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5);
+  }
+/*   
+  $light_bg: #f8faf8;
+$light_fg: #1a2f2a;
+$light_accent_1: #58733d;
+$light_accent_2: #41592f;
+$light_accent_3: #d9aa8f;
+
+$dark_bg: #010221;
+$dark_fg: #0a7373;
+$dark_accent_1: #b7bf99;
+$dark_accent_2: #edaa25;
+$dark_accent_3: #c43302;
+
+@layer base {
+  :root {
+    --token-bg: #{$light_bg};
+    --token-fg: #{$light_fg};
+    --token-accent-1: #{$light_accent_1};
+    --token-accent-2: #{$light_accent_2};
+    --token-accent-3: #{$light_accent_3};
+  }
+
+  [data-theme='dark'] {
+    --token-bg: #{$dark_bg};
+    --token-fg: #{$dark_fg};
+    --token-accent-1: #{$dark_accent_1};
+    --token-accent-2: #{$dark_accent_2};
+    --token-accent-3: #{$dark_accent_3};
+  }
+
+  [data-theme='light'] {
+    --token-bg: #{$light_bg};
+    --token-fg: #{$light_fg};
+    --token-accent-1: #{$light_accent_1};
+    --token-accent-2: #{$light_accent_2};
+    --token-accent-3: #{$light_accent_3};
+  }
+} */
+
