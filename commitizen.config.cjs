@@ -4,14 +4,11 @@ module.exports = {
   types: [
     {
       value: "build",
-      name: "build:     out builds",
+      name: "build:     deploy builds",
     },
     {
       value: "chore",
-    },
-    {
-      value: "ci",
-      name: "ci/cd",
+      name: "chore:     code maintenance"
     },
     {
       value: "docs",
@@ -21,7 +18,7 @@ module.exports = {
       value: "feat",
       name: "feat:      add new features",
     },
-    { value: "fix", name: "fix:       fix bugs" },
+    { value: "fix", name: "fix:       fix bugs & issues" },
     {
       value: "refactor",
     },
