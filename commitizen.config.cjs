@@ -1,60 +1,60 @@
-"use strict";
+'use strict';
 
 module.exports = {
   types: [
     {
-      value: "build",
-      name: "build:     deploy builds",
+      value: 'build',
+      name: 'build:     deploy builds',
     },
     {
-      value: "chore",
-      name: "chore:     code maintenance"
+      value: 'chore',
+      name: 'chore:     code maintenance',
     },
     {
-      value: "docs",
-      name: "docs:      docs update",
+      value: 'docs',
+      name: 'docs:      docs update',
     },
     {
-      value: "feat",
-      name: "feat:      add new features",
+      value: 'feat',
+      name: 'feat:      add new features',
     },
-    { value: "fix", name: "fix:       fix bugs & issues" },
+    { value: 'fix', name: 'fix:       fix bugs & issues' },
     {
-      value: "refactor",
-    },
-    {
-      value: "revert",
-      name: "revert:    reset/revert commit",
+      value: 'refactor',
     },
     {
-      value: "style",
-      name: "style:     style/implementation features",
+      value: 'revert',
+      name: 'revert:    reset/revert commit',
     },
-    { value: "tests" },
+    {
+      value: 'style',
+      name: 'style:     style/implementation features',
+    },
+    {
+      value: 'git',
+      name: 'git:     git and branch maintenance',
+    },
+    { value: 'test' },
   ],
 
-  scopes: [
-    { name: "components" },
-    { name: "environment" },
-    { name: "full product" },
-  ],
+  scopes: [{ name: 'components' }, { name: 'environment' }, { name: 'full product' }],
 
   messages: {
-    type: "Changes type:",
-    scope: "\nChoose scope:",
-    customScope: "Custom scope:",
-    subject: "Short description:\n",
+    type: 'Changes type:',
+    scope: '\nChoose scope:',
+    customScope: 'Custom scope:',
+    subject: 'Short description:\n',
     body: 'Full description. Use "|" for new row:\n',
-    breaking: "Breaking changes:\n",
-    footer: "Meta (version, issues):\n",
-    confirmCommit: "Confirm",
+    breaking: 'Breaking changes:\n',
+    footer: 'Meta (version, issues):\n',
+    confirmCommit: 'Confirm',
   },
 
   allowCustomScopes: true,
 
   allowBreakingChanges: false,
 
-  footerPrefix: "Version:",
+  footerPrefix: 'Version:',
 
   subjectLimit: 72,
 };

@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "format": "prettier . --write",
     "autofix": "eslint --fix",
-    "prepare": "husky"
+    "prepare": "husky",
+    "gitrun": "git add . && git cz"
   },
   "husky": {
     "hooks": {
