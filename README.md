@@ -7,6 +7,7 @@ Tracks the time interval for measuring the service lifespan of the purchased pro
 <summary>v: 0.0.*</summary>
 - 03.03.26 - first commit, project first build;<br>
 - 06.03.26 - env set up; lint, commitlint, tailwind etc; git-flow<br>
+- 23.03.26 - deps update;<br>
 </details>
 <hr>
 <h2>Stack:</h2>  
