@@ -1,20 +1,24 @@
-import './App.css';
+import './App';
+
+import { Timer } from 'components/index';
+
+const timers = [<Timer />, <Timer />, <Timer />];
 
 function App() {
+  const handleAddTimer = () => timers.push(<Timer />);
+  console.log(timers.length);
   return (
-    <>
+    <section>
+      <button
+        className="w-30 h-30 rounded-2xl bg border-4 border-amber-400 transition-transform duration-400 active:scale-95"
+        onClick={handleAddTimer}
+      >
+        Add timer!
+      </button>
+      <h3>{timers.length}</h3>
+
       <h1 className="bg-yellow-600">hello</h1>
-      <p className="fontBold">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam esse et voluptatem
-        optio fugiat, exercitationem qui dolores iure ipsum! Quos similique maxime cum magnam
-        doloremque veniam voluptatibus, ut voluptatum.
-      </p>
-      <p className="fontRegular">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quibusdam esse et voluptatem
-        optio fugiat, exercitationem qui dolores iure ipsum! Quos similique maxime cum magnam
-        doloremque veniam voluptatibus, ut voluptatum.
-      </p>
-    </>
+    </section>
   );
 }
 

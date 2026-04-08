@@ -11,7 +11,7 @@
     --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
   }
 
-  [data-theme="dark"] {
+  [data-theme='dark'] {
     --bg-primary: #010221;
     --bg-secondary: #020d2a;
     --fg-primary: #0a7373;
@@ -22,6 +22,7 @@
     --border: #1e3a8a;
     --shadow: 0 10px 15px -3px rgb(0 0 0 / 0.5);
   }
+}
 /*   
   $light_bg: #f8faf8;
 $light_fg: #1a2f2a;
@@ -60,4 +61,3 @@ $dark_accent_3: #c43302;
     --token-accent-3: #{$light_accent_3};
   }
 } */
-

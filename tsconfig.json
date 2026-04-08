@@ -19,17 +19,16 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "public/*": ["public/"],
-      "components/*": ["src/components/*"],
-      "services/*": ["depricated/services/*"],
-      "ui/*": ["src/components/ui/*"],
-      "data/*": ["depricated/data/*"],
-      "assets/*": ["src/assets/*"],
-      "store/*": ["src/store/*"],
-      "pages/*": ["src/pages/*"]
+      "@/*": ["./src/*"],
+      "public/*": ["./src/public/"],
+      "components/*": ["./src/components/*"],
+      "services/*": ["./src/depricated/services/*"],
+      "ui/*": ["./src/components/ui/*"],
+      "data/*": ["./src/depricated/data/*"],
+      "assets/*": ["./src/assets/*"],
+      "store/*": ["./src/store/*"],
+      "pages/*": ["./src/pages/*"]
     },
     "typeRoots": ["depricated/services"]
   },
