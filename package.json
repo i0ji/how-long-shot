@@ -27,10 +27,11 @@
     }
   },
   "dependencies": {
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
     "react-router": "^7.14.0",
-    "react-router-dom": "^7.14.0"
+    "react-router-dom": "^7.14.0",
+    "remove": "^0.1.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
@@ -58,11 +59,11 @@
     "tailwindcss": "^4.2.2",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.1",
-    "vite": "^8.0.7"
+    "vite": "^8.0.8"
   },
   "pnpm": {
     "overrides": {
-      "vite": "^8.0.7",
+      "vite": "^8.0.8",
       "tmp@<=0.2.3": ">=0.2.4",
       "lodash@>=4.0.0 <=4.17.22": ">=4.17.23",
       "flatted@<3.4.0": ">=3.4.0",
