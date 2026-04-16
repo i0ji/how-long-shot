@@ -3,6 +3,7 @@ import './App';
 import { Header, Timer } from 'components/index';
 
 import clsx from 'clsx';
+import { Outlet } from 'react-router-dom';
 
 const timers = [<Timer />, <Timer />, <Timer />];
 
@@ -12,20 +13,10 @@ function App() {
   return (
     <section>
       <Header />
-      <button
-        className={clsx(
-          'w-30 h-30',
-          'rounded-2xl bg border-4 border-amber-400',
-          'transition-transform duration-100 active:scale-95'
-        )}
-        onClick={handleAddTimer}
-      >
-        Add timer!
-      </button>
-      <h3>{timers.length}</h3>
-      
+      <main className="p-4">
+        <Outlet />
+      </main>
 
-      <h1 className="bg-yellow-600">hello</h1>
     </section>
   );
 }

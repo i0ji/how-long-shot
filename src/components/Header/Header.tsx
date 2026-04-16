@@ -1,17 +1,39 @@
-// import { Outlet, Scripts } from "react-router";
-import { NavLink } from 'react-router';
+import clsx from 'clsx';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header>
+    <header
+      className={clsx(
+        'my-2 h-20 flex items-center p-4 ',
+        ' bg-gray-500 rounded'
+      )}
+    >
       <nav>
-        <ul className="bg-stone-500 flex justify-around">
+        <ul className="flex gap-6">
           <li>
-            {' '}
             <NavLink
-              to="/"
+              to="/home"
               className={({ isActive }) =>
-                `px-3 py-2 rounded ${isActive ? 'bg-white text-blue-500' : 'text-white hover:bg-blue-700'}`
+                `px-3 py-2 rounded ${
+                  isActive
+                    ? 'bg-white text-blue-500'
+                    : 'text-white hover:bg-blue-700'
+                }`
+              }
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/timers"
+              className={({ isActive }) =>
+                `px-3 py-2 rounded ${
+                  isActive
+                    ? 'bg-white text-blue-500'
+                    : 'text-white hover:bg-blue-700'
+                }`
               }
             >
               Timers
@@ -19,9 +41,13 @@ export default function Header() {
           </li>
           <li>
             <NavLink
-              to="/"
+              to="/statistics"
               className={({ isActive }) =>
-                `px-3 py-2 rounded ${isActive ? 'bg-white text-blue-500' : 'text-white hover:bg-blue-700'}`
+                `px-3 py-2 rounded ${
+                  isActive
+                    ? 'bg-white text-blue-500'
+                    : 'text-white hover:bg-blue-700'
+                }`
               }
             >
               Statistics
