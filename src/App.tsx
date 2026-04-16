@@ -2,13 +2,13 @@ import './App';
 
 import { Header, Timer } from 'components/index';
 
-import clsx from 'clsx';
+// import clsx from 'clsx';
 import { Outlet } from 'react-router-dom';
 
 const timers = [<Timer />, <Timer />, <Timer />];
 
 function App() {
-  const handleAddTimer = () => timers.push(<Timer />);
+  
   console.log(timers.length);
   return (
     <section>
@@ -16,7 +16,6 @@ function App() {
       <main className="p-4">
         <Outlet />
       </main>
-
     </section>
   );
 }

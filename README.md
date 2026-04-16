@@ -10,7 +10,7 @@ Tracks the time interval for measuring the service lifespan of the purchased pro
 - 08.04.26 - deps update; start &lt;Timer&gt; markup; start main section; prepare to TS 7+ migration;<br>
 - 09.04.26 - add and update deps; add routing; vulerabilities check; add components;<br>
 - 13.04.26 - add and update deps; vulerabilities check;<br>
-- 16.04.26 - deps update;<br>
+- 16.04.26 - deps update; add store, state and set up correct routing<br>
 </details>
 <hr>
 <h2>Stack:</h2>  
