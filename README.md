@@ -12,6 +12,7 @@ Tracks the time interval for measuring the service lifespan of the purchased pro
 - 13.04.26 - add and update deps; vulerabilities check;<br>
 - 16.04.26 - deps update; add store, state and set up correct routing<br>
 - 18.06.26 - deps update; vulnerabilities check; pnpm migration;<br>
+- 18.08.26 - deps update; vulnerabilities check;<br>
 </details>
 <hr>
 <h2>Stack:</h2>  
